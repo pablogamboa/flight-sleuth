@@ -1,0 +1,895 @@
+{
+  "identification": {
+    "id": "3344d00b",
+    "row": 5448710598,
+    "number": {
+      "default": "VY3979",
+      "alternative": null
+    },
+    "callsign": "VLG31KW"
+  },
+  "status": {
+    "live": true,
+    "text": "Estimated- 18:55",
+    "icon": "green",
+    "estimated": null,
+    "ambiguous": false,
+    "generic": {
+      "status": {
+        "text": "estimated",
+        "color": "green",
+        "type": "arrival"
+      },
+      "eventTime": {
+        "utc": 1702835712,
+        "local": 1702839312
+      }
+    }
+  },
+  "level": "limited",
+  "promote": false,
+  "aircraft": {
+    "model": {
+      "code": "A320",
+      "text": "Airbus A320-214"
+    },
+    "countryId": 209,
+    "registration": "EC-JTQ",
+    "age": null,
+    "msn": null,
+    "images": {
+      "thumbnails": [
+        {
+          "src": "https://cdn.jetphotos.com/200/5/921424_1696969539_tb.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11118074",
+          "copyright": "Michael Musil",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/200/6/688929_1695406296_tb.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11097352",
+          "copyright": "James Rowson",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/200/6/1771718_1697748040_tb.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11127664",
+          "copyright": "Monica De Guidi",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/200/5/1419028_1688457220_tb.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11016978",
+          "copyright": "Michael Pearce",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/200/5/1124826_1687799158_tb.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11009119",
+          "copyright": "Nikoli Sparkes",
+          "source": "Jetphotos"
+        }
+      ],
+      "medium": [
+        {
+          "src": "https://cdn.jetphotos.com/400/5/921424_1696969539.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11118074",
+          "copyright": "Michael Musil",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/400/6/688929_1695406296.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11097352",
+          "copyright": "James Rowson",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/400/6/1771718_1697748040.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11127664",
+          "copyright": "Monica De Guidi",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/400/5/1419028_1688457220.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11016978",
+          "copyright": "Michael Pearce",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/400/5/1124826_1687799158.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11009119",
+          "copyright": "Nikoli Sparkes",
+          "source": "Jetphotos"
+        }
+      ],
+      "large": [
+        {
+          "src": "https://cdn.jetphotos.com/640cb/5/921424_1696969539.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11118074",
+          "copyright": "Michael Musil",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/640cb/6/688929_1695406296.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11097352",
+          "copyright": "James Rowson",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/640cb/6/1771718_1697748040.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11127664",
+          "copyright": "Monica De Guidi",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/640cb/5/1419028_1688457220.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11016978",
+          "copyright": "Michael Pearce",
+          "source": "Jetphotos"
+        },
+        {
+          "src": "https://cdn.jetphotos.com/640cb/5/1124826_1687799158.jpg?v=0",
+          "link": "https://www.jetphotos.com/photo/11009119",
+          "copyright": "Nikoli Sparkes",
+          "source": "Jetphotos"
+        }
+      ]
+    },
+    "hex": "342397"
+  },
+  "airline": {
+    "name": "Vueling",
+    "short": "Vueling",
+    "code": {
+      "iata": "VY",
+      "icao": "VLG"
+    },
+    "url": "vueling-vlg"
+  },
+  "owner": null,
+  "airspace": null,
+  "airport": {
+    "origin": {
+      "name": "Zaragoza Airport",
+      "code": {
+        "iata": "ZAZ",
+        "icao": "LEZG"
+      },
+      "position": {
+        "latitude": 41.666241,
+        "longitude": -1.04155,
+        "altitude": 863,
+        "country": {
+          "id": null,
+          "name": "Spain",
+          "code": "ESP"
+        },
+        "region": {
+          "city": "Zaragoza"
+        }
+      },
+      "timezone": {
+        "name": "Europe/Madrid",
+        "offset": 3600,
+        "offsetHours": "1:00",
+        "abbr": "CET",
+        "abbrName": "Central European Time",
+        "isDst": false
+      },
+      "visible": true,
+      "website": "http://www.aena-aeropuertos.es/csee/Satellite/Aeropuerto-Zaragoza/en/",
+      "info": {
+        "terminal": "T1",
+        "baggage": null,
+        "gate": "4"
+      }
+    },
+    "destination": {
+      "name": "Palma de Mallorca Airport",
+      "code": {
+        "iata": "PMI",
+        "icao": "LEPA"
+      },
+      "position": {
+        "latitude": 39.55167,
+        "longitude": 2.738808,
+        "altitude": 27,
+        "country": {
+          "id": 209,
+          "name": "Spain",
+          "code": "ES",
+          "codeLong": "ESP"
+        },
+        "region": {
+          "city": "Palma de Mallorca"
+        }
+      },
+      "timezone": {
+        "name": "Europe/Madrid",
+        "offset": 3600,
+        "offsetHours": "1:00",
+        "abbr": "CET",
+        "abbrName": "Central European Time",
+        "isDst": false
+      },
+      "visible": true,
+      "website": "https://www.aena.es/es/palma-de-mallorca.html",
+      "info": {
+        "terminal": null,
+        "baggage": "11",
+        "gate": null
+      }
+    },
+    "real": null
+  },
+  "flightHistory": {
+    "aircraft": [
+      {
+        "identification": {
+          "id": "3344935d",
+          "number": {
+            "default": "VY3978"
+          }
+        },
+        "airport": {
+          "origin": {
+            "name": "Palma de Mallorca Airport",
+            "code": {
+              "iata": "PMI",
+              "icao": "LEPA"
+            },
+            "position": {
+              "latitude": 39.55167,
+              "longitude": 2.738808,
+              "altitude": 27,
+              "country": {
+                "id": 209,
+                "name": "Spain",
+                "code": "ES",
+                "codeLong": "ESP"
+              },
+              "region": {
+                "city": "Palma de Mallorca"
+              }
+            },
+            "timezone": {
+              "name": "Europe/Madrid",
+              "offset": 3600,
+              "offsetHours": "1:00",
+              "abbr": "CET",
+              "abbrName": "Central European Time",
+              "isDst": false
+            },
+            "visible": true,
+            "website": "https://www.aena.es/es/palma-de-mallorca.html"
+          },
+          "destination": {
+            "name": "Zaragoza Airport",
+            "code": {
+              "iata": "ZAZ",
+              "icao": "LEZG"
+            },
+            "position": {
+              "latitude": 41.666241,
+              "longitude": -1.04155,
+              "altitude": 863,
+              "country": {
+                "id": null,
+                "name": "Spain",
+                "code": "ESP"
+              },
+              "region": {
+                "city": "Zaragoza"
+              }
+            },
+            "timezone": {
+              "name": "Europe/Madrid",
+              "offset": 3600,
+              "offsetHours": "1:00",
+              "abbr": "CET",
+              "abbrName": "Central European Time",
+              "isDst": false
+            },
+            "visible": true,
+            "website": "http://www.aena-aeropuertos.es/csee/Satellite/Aeropuerto-Zaragoza/en/"
+          }
+        },
+        "time": {
+          "real": {
+            "departure": 1702827252
+          }
+        }
+      },
+      {
+        "identification": {
+          "id": "334402b4",
+          "number": {
+            "default": "VY3841"
+          }
+        },
+        "airport": {
+          "origin": {
+            "name": "Munich Airport",
+            "code": {
+              "iata": "MUC",
+              "icao": "EDDM"
+            },
+            "position": {
+              "latitude": 48.353779,
+              "longitude": 11.78608,
+              "altitude": 1487,
+              "country": {
+                "id": 83,
+                "name": "Germany",
+                "code": "DE",
+                "codeLong": "DEU"
+              },
+              "region": {
+                "city": "Munich"
+              }
+            },
+            "timezone": {
+              "name": "Europe/Berlin",
+              "offset": 3600,
+              "offsetHours": "1:00",
+              "abbr": "CET",
+              "abbrName": "Central European Time",
+              "isDst": false
+            },
+            "visible": true,
+            "website": "http://www.munich-airport.de/en/consumer/index.jsp"
+          },
+          "destination": {
+            "name": "Palma de Mallorca Airport",
+            "code": {
+              "iata": "PMI",
+              "icao": "LEPA"
+            },
+            "position": {
+              "latitude": 39.55167,
+              "longitude": 2.738808,
+              "altitude": 27,
+              "country": {
+                "id": 209,
+                "name": "Spain",
+                "code": "ES",
+                "codeLong": "ESP"
+              },
+              "region": {
+                "city": "Palma de Mallorca"
+              }
+            },
+            "timezone": {
+              "name": "Europe/Madrid",
+              "offset": 3600,
+              "offsetHours": "1:00",
+              "abbr": "CET",
+              "abbrName": "Central European Time",
+              "isDst": false
+            },
+            "visible": true,
+            "website": "https://www.aena.es/es/palma-de-mallorca.html"
+          }
+        },
+        "time": {
+          "real": {
+            "departure": 1702814112
+          }
+        }
+      },
+      {
+        "identification": {
+          "id": "3343a877",
+          "number": {
+            "default": "VY3840"
+          }
+        },
+        "airport": {
+          "origin": {
+            "name": "Palma de Mallorca Airport",
+            "code": {
+              "iata": "PMI",
+              "icao": "LEPA"
+            },
+            "position": {
+              "latitude": 39.55167,
+              "longitude": 2.738808,
+              "altitude": 27,
+              "country": {
+                "id": 209,
+                "name": "Spain",
+                "code": "ES",
+                "codeLong": "ESP"
+              },
+              "region": {
+                "city": "Palma de Mallorca"
+              }
+            },
+            "timezone": {
+              "name": "Europe/Madrid",
+              "offset": 3600,
+              "offsetHours": "1:00",
+              "abbr": "CET",
+              "abbrName": "Central European Time",
+              "isDst": false
+            },
+            "visible": true,
+            "website": "https://www.aena.es/es/palma-de-mallorca.html"
+          },
+          "destination": {
+            "name": "Munich Airport",
+            "code": {
+              "iata": "MUC",
+              "icao": "EDDM"
+            },
+            "position": {
+              "latitude": 48.353779,
+              "longitude": 11.78608,
+              "altitude": 1487,
+              "country": {
+                "id": 83,
+                "name": "Germany",
+                "code": "DE",
+                "codeLong": "DEU"
+              },
+              "region": {
+                "city": "Munich"
+              }
+            },
+            "timezone": {
+              "name": "Europe/Berlin",
+              "offset": 3600,
+              "offsetHours": "1:00",
+              "abbr": "CET",
+              "abbrName": "Central European Time",
+              "isDst": false
+            },
+            "visible": true,
+            "website": "http://www.munich-airport.de/en/consumer/index.jsp"
+          }
+        },
+        "time": {
+          "real": {
+            "departure": 1702803942
+          }
+        }
+      },
+      {
+        "identification": {
+          "id": "33437836",
+          "number": {
+            "default": "VY3904"
+          }
+        },
+        "airport": {
+          "origin": {
+            "name": "Barcelona El Prat Airport",
+            "code": {
+              "iata": "BCN",
+              "icao": "LEBL"
+            },
+            "position": {
+              "latitude": 41.29707,
+              "longitude": 2.078463,
+              "altitude": 12,
+              "country": {
+                "id": 209,
+                "name": "Spain",
+                "code": "ES",
+                "codeLong": "ESP"
+              },
+              "region": {
+                "city": "Barcelona"
+              }
+            },
+            "timezone": {
+              "name": "Europe/Madrid",
+              "offset": 3600,
+              "offsetHours": "1:00",
+              "abbr": "CET",
+              "abbrName": "Central European Time",
+              "isDst": false
+            },
+            "visible": true,
+            "website": "https://www.aena.es/es/josep-tarradellas-barcelona-el-prat.html"
+          },
+          "destination": {
+            "name": "Palma de Mallorca Airport",
+            "code": {
+              "iata": "PMI",
+              "icao": "LEPA"
+            },
+            "position": {
+              "latitude": 39.55167,
+              "longitude": 2.738808,
+              "altitude": 27,
+              "country": {
+                "id": 209,
+                "name": "Spain",
+                "code": "ES",
+                "codeLong": "ESP"
+              },
+              "region": {
+                "city": "Palma de Mallorca"
+              }
+            },
+            "timezone": {
+              "name": "Europe/Madrid",
+              "offset": 3600,
+              "offsetHours": "1:00",
+              "abbr": "CET",
+              "abbrName": "Central European Time",
+              "isDst": false
+            },
+            "visible": true,
+            "website": "https://www.aena.es/es/palma-de-mallorca.html"
+          }
+        },
+        "time": {
+          "real": {
+            "departure": 1702797538
+          }
+        }
+      }
+    ]
+  },
+  "ems": null,
+  "availability": [
+    "AGE",
+    "MSN"
+  ],
+  "time": {
+    "scheduled": {
+      "departure": 1702833000,
+      "arrival": 1702836900
+    },
+    "real": {
+      "departure": 1702832707,
+      "arrival": null
+    },
+    "estimated": {
+      "departure": null,
+      "arrival": 1702835712
+    },
+    "other": {
+      "eta": 1702835712,
+      "updated": 1702832916
+    },
+    "historical": {
+      "flighttime": "2827",
+      "delay": "-1418"
+    }
+  },
+  "trail": [
+    {
+      "lat": 41.539993,
+      "lng": -0.665235,
+      "alt": 11675,
+      "spd": 330,
+      "ts": 1702832964,
+      "hd": 96
+    },
+    {
+      "lat": 41.54261,
+      "lng": -0.69463,
+      "alt": 11325,
+      "spd": 313,
+      "ts": 1702832949,
+      "hd": 96
+    },
+    {
+      "lat": 41.545265,
+      "lng": -0.723373,
+      "alt": 11000,
+      "spd": 292,
+      "ts": 1702832933,
+      "hd": 97
+    },
+    {
+      "lat": 41.547592,
+      "lng": -0.74905,
+      "alt": 10400,
+      "spd": 280,
+      "ts": 1702832919,
+      "hd": 96
+    },
+    {
+      "lat": 41.54805,
+      "lng": -0.754811,
+      "alt": 10225,
+      "spd": 279,
+      "ts": 1702832915,
+      "hd": 96
+    },
+    {
+      "lat": 41.548462,
+      "lng": -0.760117,
+      "alt": 10050,
+      "spd": 280,
+      "ts": 1702832912,
+      "hd": 95
+    },
+    {
+      "lat": 41.548874,
+      "lng": -0.765173,
+      "alt": 9875,
+      "spd": 279,
+      "ts": 1702832909,
+      "hd": 95
+    },
+    {
+      "lat": 41.549194,
+      "lng": -0.770229,
+      "alt": 9700,
+      "spd": 280,
+      "ts": 1702832906,
+      "hd": 94
+    },
+    {
+      "lat": 41.549515,
+      "lng": -0.775098,
+      "alt": 9550,
+      "spd": 279,
+      "ts": 1702832904,
+      "hd": 94
+    },
+    {
+      "lat": 41.549873,
+      "lng": -0.780476,
+      "alt": 9375,
+      "spd": 278,
+      "ts": 1702832900,
+      "hd": 94
+    },
+    {
+      "lat": 41.550201,
+      "lng": -0.785647,
+      "alt": 9200,
+      "spd": 278,
+      "ts": 1702832897,
+      "hd": 95
+    },
+    {
+      "lat": 41.550568,
+      "lng": -0.790891,
+      "alt": 9025,
+      "spd": 279,
+      "ts": 1702832894,
+      "hd": 98
+    },
+    {
+      "lat": 41.551071,
+      "lng": -0.79576,
+      "alt": 8875,
+      "spd": 278,
+      "ts": 1702832892,
+      "hd": 101
+    },
+    {
+      "lat": 41.552574,
+      "lng": -0.803982,
+      "alt": 8650,
+      "spd": 277,
+      "ts": 1702832887,
+      "hd": 107
+    },
+    {
+      "lat": 41.553452,
+      "lng": -0.80737,
+      "alt": 8550,
+      "spd": 276,
+      "ts": 1702832885,
+      "hd": 111
+    },
+    {
+      "lat": 41.554733,
+      "lng": -0.811553,
+      "alt": 8450,
+      "spd": 275,
+      "ts": 1702832882,
+      "hd": 116
+    },
+    {
+      "lat": 41.556564,
+      "lng": -0.816297,
+      "alt": 8300,
+      "spd": 275,
+      "ts": 1702832879,
+      "hd": 121
+    },
+    {
+      "lat": 41.558304,
+      "lng": -0.820042,
+      "alt": 8175,
+      "spd": 275,
+      "ts": 1702832876,
+      "hd": 124
+    },
+    {
+      "lat": 41.571426,
+      "lng": -0.83924,
+      "alt": 7300,
+      "spd": 273,
+      "ts": 1702832861,
+      "hd": 135
+    },
+    {
+      "lat": 41.573868,
+      "lng": -0.842452,
+      "alt": 7175,
+      "spd": 272,
+      "ts": 1702832858,
+      "hd": 135
+    },
+    {
+      "lat": 41.577713,
+      "lng": -0.847608,
+      "alt": 6950,
+      "spd": 270,
+      "ts": 1702832854,
+      "hd": 135
+    },
+    {
+      "lat": 41.579666,
+      "lng": -0.850227,
+      "alt": 6850,
+      "spd": 268,
+      "ts": 1702832852,
+      "hd": 134
+    },
+    {
+      "lat": 41.581623,
+      "lng": -0.852846,
+      "alt": 6750,
+      "spd": 267,
+      "ts": 1702832849,
+      "hd": 134
+    },
+    {
+      "lat": 41.584091,
+      "lng": -0.856103,
+      "alt": 6600,
+      "spd": 265,
+      "ts": 1702832847,
+      "hd": 134
+    },
+    {
+      "lat": 41.586639,
+      "lng": -0.859618,
+      "alt": 6450,
+      "spd": 263,
+      "ts": 1702832843,
+      "hd": 133
+    },
+    {
+      "lat": 41.589069,
+      "lng": -0.863002,
+      "alt": 6300,
+      "spd": 263,
+      "ts": 1702832841,
+      "hd": 133
+    },
+    {
+      "lat": 41.592407,
+      "lng": -0.867795,
+      "alt": 6100,
+      "spd": 261,
+      "ts": 1702832837,
+      "hd": 130
+    },
+    {
+      "lat": 41.600052,
+      "lng": -0.881965,
+      "alt": 5700,
+      "spd": 248,
+      "ts": 1702832826,
+      "hd": 120
+    },
+    {
+      "lat": 41.608292,
+      "lng": -0.901316,
+      "alt": 5100,
+      "spd": 231,
+      "ts": 1702832811,
+      "hd": 119
+    },
+    {
+      "lat": 41.613144,
+      "lng": -0.912802,
+      "alt": 4600,
+      "spd": 228,
+      "ts": 1702832801,
+      "hd": 119
+    },
+    {
+      "lat": 41.61784,
+      "lng": -0.924001,
+      "alt": 4075,
+      "spd": 226,
+      "ts": 1702832792,
+      "hd": 119
+    },
+    {
+      "lat": 41.622543,
+      "lng": -0.934988,
+      "alt": 3500,
+      "spd": 225,
+      "ts": 1702832783,
+      "hd": 119
+    },
+    {
+      "lat": 41.627151,
+      "lng": -0.945782,
+      "alt": 3000,
+      "spd": 223,
+      "ts": 1702832774,
+      "hd": 120
+    },
+    {
+      "lat": 41.630222,
+      "lng": -0.952681,
+      "alt": 2725,
+      "spd": 218,
+      "ts": 1702832768,
+      "hd": 120
+    },
+    {
+      "lat": 41.634888,
+      "lng": -0.963052,
+      "alt": 2475,
+      "spd": 204,
+      "ts": 1702832759,
+      "hd": 121
+    },
+    {
+      "lat": 41.639145,
+      "lng": -0.972415,
+      "alt": 2275,
+      "spd": 188,
+      "ts": 1702832750,
+      "hd": 121
+    },
+    {
+      "lat": 41.643211,
+      "lng": -0.981169,
+      "alt": 2050,
+      "spd": 176,
+      "ts": 1702832741,
+      "hd": 121
+    },
+    {
+      "lat": 41.647076,
+      "lng": -0.989472,
+      "alt": 1750,
+      "spd": 166,
+      "ts": 1702832732,
+      "hd": 121
+    },
+    {
+      "lat": 41.650612,
+      "lng": -0.997329,
+      "alt": 1500,
+      "spd": 155,
+      "ts": 1702832723,
+      "hd": 120
+    },
+    {
+      "lat": 41.654289,
+      "lng": -1.00576,
+      "alt": 1025,
+      "spd": 156,
+      "ts": 1702832713,
+      "hd": 119
+    },
+    {
+      "lat": 41.661438,
+      "lng": -1.0143,
+      "alt": 0,
+      "spd": 0,
+      "ts": 1702832329,
+      "hd": 253
+    }
+  ],
+  "firstTimestamp": 1702832329,
+  "s": "256bstZwMo5k9lzXCIg-OOW-6W1KbAXpfLyrlyp-hMlS0LZf93F3Y3nee95SvpdH"
+}
