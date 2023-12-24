@@ -46,11 +46,17 @@ def process_flight(fr_api, flight, session):
 
 
 def check_flights():
-    engine = setup_engine()
+    # grab all the flights in the bounds
     fr_api = FlightRadar24API()
     flights = fr_api.get_flights(bounds=settings.bounds, details=True)
     logger.info("these are the flights: %r", flights)
-    with Session(engine) as session:
+
+    # now process them all
+    engine = setup_engine()
+    with (
+        Session(engine) as session,
+        session.begin(),
+    ):
+        # for each flight, get the details and upsert it into the db
         for flight in flights:
             process_flight(fr_api, flight, session)
-        session.commit()
