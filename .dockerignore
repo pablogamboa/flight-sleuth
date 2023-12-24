@@ -8,5 +8,8 @@
 .git
 .idea
 .pytest_cache
+.rtx.toml
 UNKNOWN.egg-info
 Makefile
+pyproject.toml
+README.md
