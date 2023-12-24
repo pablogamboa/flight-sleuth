@@ -9,7 +9,7 @@ class TimeDA(BaseModel):
 
 
 class TimeOther(BaseModel):
-    eta: datetime
+    eta: None | datetime
     updated: datetime
 
 
@@ -36,7 +36,7 @@ class Trail(BaseModel):
 
 
 class AircraftNumber(BaseModel):
-    default: None | str
+    default: None | str = None
 
 
 class AircraftIdentification(BaseModel):
@@ -107,12 +107,12 @@ class AirportWithInfo(BaseAirport):
 
 class FlightInfoAirport(BaseModel):
     origin: AirportWithInfo
-    destination: AirportWithInfo
+    destination: None | AirportWithInfo = None
 
 
 class AircraftAirport(BaseModel):
-    origin: BaseAirport
-    destination: BaseAirport
+    origin: None | BaseAirport
+    destination: None | BaseAirport
 
 
 class FlightHistoryAircraft(BaseModel):
@@ -126,15 +126,15 @@ class FlightHistory(BaseModel):
 
 
 class AirlineCode(BaseModel):
-    iata: str
-    icao: str
+    iata: None | str
+    icao: None | str
 
 
 class Airline(BaseModel):
     name: str
-    short: str
-    code: AirlineCode
-    url: str
+    short: str | None = None
+    code: None | AirlineCode
+    url: None | str
 
 
 class AircraftModel(BaseModel):
@@ -191,7 +191,7 @@ class Status(BaseModel):
 
 
 class IdentificationNumber(BaseModel):
-    default: str
+    default: str | None
     alternative: str | None
 
 

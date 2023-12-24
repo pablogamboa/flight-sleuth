@@ -35,7 +35,7 @@ def process_flight(fr_api, flight, session):
         aircraft_code=flight_info.aircraft.model.code,
         aircraft_model=flight_info.aircraft.model.text,
         origin=flight_info.airport.origin.code.iata,
-        destination=flight_info.airport.destination.code.iata,
+        destination=flight_info.airport.destination.code.iata if flight_info.airport.destination else "N/A",
         data=data,
     )
     do_update_stmt = stmt.on_conflict_do_update(
